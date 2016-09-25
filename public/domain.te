@@ -361,6 +361,9 @@ neverallow {
     -vendor_file_type
     -exec_type
     -postinstall_file
+    -ics_blob_file
+    -ics_audio_blob_file
+    -ics_camera_blob_file
 }:file execute;
 
 neverallow {
@@ -825,6 +828,9 @@ neverallow * {
   -apk_data_file
   -app_data_file
   -asec_public_file
+  -ics_blob_file
+  -ics_audio_blob_file
+  -ics_camera_blob_file
 }:file execmod;
 
 # Do not allow making the stack or heap executable.
