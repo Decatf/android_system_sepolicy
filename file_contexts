@@ -414,3 +414,6 @@
 /system/vendor/lib/libcgdrv.so                 u:object_r:ics_blob_file:s0
 /system/vendor/lib/libsecril-client.so         u:object_r:ics_audio_blob_file:s0
 /system/vendor/lib/hw/camera.vendor.tegra.so   u:object_r:ics_camera_blob_file:s0
+
+# Themes
+/data/system/theme(/.*)?  u:object_r:theme_data_file:s0
